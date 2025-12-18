@@ -1,0 +1,25 @@
+# MongoDB Atlas API Keys (get from Atlas -> Access Manager -> API Keys)
+mongodb_atlas_public_key  = ""
+mongodb_atlas_private_key = ""
+mongodb_atlas_org_id      = ""
+
+# Project Configuration
+project_name = "cee-backend"
+cluster_name = "cee-cluster"
+
+# Cluster Configuration
+cloud_provider  = "AWS"
+region          = "AP_SOUTHEAST_1" # Singapore
+instance_size   = "M0"             # Free tier (M0), Paid: M10, M20, M30, etc.
+mongodb_version = "7.0"
+
+# Database Configuration
+database_name = ""
+db_username   = ""
+db_password   = ""
+
+# Network Configuration (restrict in production!)
+ip_access_cidr = "0.0.0.0/0"
+
+# Environment
+environment = "development"
